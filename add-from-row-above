@@ -1,0 +1,1 @@
+=IF(ROW()=2, 2023, IF(A2= "", "0", MAX($B$2:INDIRECT(ADDRESS(ROW()-1,COLUMN())))+1))
