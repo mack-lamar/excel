@@ -1,0 +1,2 @@
+=iferror(max(vlookup($J2, final, 2,)), "No Data")
+where J2 is the search criteria, final is an array of data to search(in this case it was 2 colums), 2 is the index in the array to return
